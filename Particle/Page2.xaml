@@ -4,7 +4,7 @@
              x:Class="Particle.Page2">
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Welcome to Xamarin.Forms!"
+            <Button Text="Navigate"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" Clicked="Button_OnClicked" />
         </StackLayout>
