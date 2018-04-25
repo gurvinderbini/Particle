@@ -11,7 +11,7 @@ namespace Particle
 		{
 			InitializeComponent();
 
-			MainPage =new NavigationPage(new ParticlePage());;
+			MainPage =new NavigationPage(new Page2());;
 		}
 
 		protected override void OnStart()

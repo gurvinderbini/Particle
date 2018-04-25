@@ -4,9 +4,9 @@
              x:Class="Particle.Page2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Button Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" Clicked="Button_OnClicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

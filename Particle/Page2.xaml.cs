@@ -16,5 +16,10 @@ namespace Particle
         {
             InitializeComponent();
         }
+
+        private void Button_OnClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ParticlePage());
+        }
     }
 }
