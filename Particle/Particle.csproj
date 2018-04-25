@@ -47,9 +47,6 @@
     <Compile Include="Weather\WeatherService.cs" />
     <Compile Include="Weather\Weather.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="project.json" />
-  </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Page2.xaml">
